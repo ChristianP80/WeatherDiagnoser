@@ -27,6 +27,8 @@
 }
 - (IBAction)generateButton:(id)sender {
     float experience = self.temperature + self.windspeed;
+    self.answer.text = [self feeling:experience];
+    
 }
 -(float)currentTemp {
     return self.temperatureSlider.value;
