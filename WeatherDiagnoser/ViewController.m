@@ -59,6 +59,8 @@
         feeling = @"Awsome weather, enjoy!!!";
     } else if (experience > 20 && experience <= 35 ) {
         feeling = @"Bring some water";
+    } else {
+        feeling = @"It´s to hot, stay inside and drink alot of beers";
     }
     return feeling;
 }
